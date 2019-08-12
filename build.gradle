@@ -1,0 +1,25 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.7.RELEASE'
+    id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.anagram'
+version = 'AnagramAPI'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+jar {
+    from 'dictionary.txt'
+}
+
