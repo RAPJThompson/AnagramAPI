@@ -1,8 +1,8 @@
-package com.anagram.project.service.impl;
+package com.anagram.service.impl;
 
-import com.anagram.project.common.*;
-import com.anagram.project.dao.*;
-import com.anagram.project.service.*;
+import com.anagram.common.*;
+import com.anagram.dao.*;
+import com.anagram.service.*;
 import java.util.*;
 import java.util.stream.*;
 import org.springframework.beans.factory.annotation.*;

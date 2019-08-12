@@ -1,6 +1,6 @@
-package com.anagram.project.web;
+package com.anagram.web;
 
-import com.anagram.project.service.*;
+import com.anagram.service.*;
 import java.util.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.*;

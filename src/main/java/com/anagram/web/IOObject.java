@@ -1,6 +1,6 @@
-package com.anagram.project.web;
+package com.anagram.web;
 
-import java.util.List;
+import java.util.*;
 
 public class IOObject {
 
@@ -14,7 +14,6 @@ public class IOObject {
     this.words = words;
     return this;
   }
-
 
 
 }

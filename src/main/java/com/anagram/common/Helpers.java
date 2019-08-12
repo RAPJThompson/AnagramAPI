@@ -1,8 +1,9 @@
-package com.anagram.project.common;
+package com.anagram.common;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class Helpers {
+
   public static String sortWord(String word) {
     char[] charArray = word.toCharArray();
     Arrays.sort(charArray);

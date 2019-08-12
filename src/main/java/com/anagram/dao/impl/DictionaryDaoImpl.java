@@ -1,7 +1,7 @@
-package com.anagram.project.dao.impl;
+package com.anagram.dao.impl;
 
-import com.anagram.project.common.*;
-import com.anagram.project.dao.*;
+import com.anagram.common.*;
+import com.anagram.dao.*;
 import java.io.*;
 import java.nio.charset.*;
 import java.util.*;

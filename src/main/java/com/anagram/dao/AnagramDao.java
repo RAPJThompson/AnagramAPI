@@ -1,4 +1,4 @@
-package com.anagram.project.dao;
+package com.anagram.dao;
 
 import java.util.*;
 

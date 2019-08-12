@@ -1,4 +1,4 @@
-package com.anagram.project.service;
+package com.anagram.service;
 
 import java.util.*;
 
