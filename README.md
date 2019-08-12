@@ -1,6 +1,10 @@
 # AnagramAPI
 
-This is a basic Spring Boot application that creates and runs a REST API for interacting with anagrams stored in memory. If running locally, runs on Port 3000. To run locally use Java 11 with the command
+This is a basic Spring Boot application that creates and runs a REST API for interacting with anagrams stored in memory. If running locally, runs on Port 3000. To run locally either download the repo and use the command
+
+    gradlew bootrun
+
+or download the jar file and use Java 11 to run the command
   
     java -jar AnagramAPI.jar
 
